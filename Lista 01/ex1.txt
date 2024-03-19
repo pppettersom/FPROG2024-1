@@ -1,0 +1,21 @@
+Em python:
+
+print ('Hello World')
+
+Em java:
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+Em C#:
+
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("Hello World");
+  }
+}
