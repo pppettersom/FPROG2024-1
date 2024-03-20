@@ -1,7 +1,7 @@
 #Recebendo as quantidades
-quantCamiseta = int(input('Olá, quantas camisetas fora compradas?'))
-quantCalca = int(input('Quantas calças fora compradas?'))
-quantCinto = int(input('Quantos cintos fora comprados?'))
+quantCamiseta = int(input('Olá, quantas camisetas foram compradas?'))
+quantCalca = int(input('Quantas calças foram compradas?'))
+quantCinto = int(input('Quantos cintos foram comprados?'))
 
 #fazendo o calculo
 totalCamiseta = quantCamiseta*25
