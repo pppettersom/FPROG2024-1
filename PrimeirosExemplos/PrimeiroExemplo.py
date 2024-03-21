@@ -21,3 +21,6 @@ print('Olá',nome)
 idade = int(input('Digite sua idade: '))
 
 print('Seu nome é:',nome,'Sua idade é:',idade)
+
+resto = 5%2
+print(resto)
