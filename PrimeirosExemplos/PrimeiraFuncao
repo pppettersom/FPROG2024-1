@@ -1,0 +1,18 @@
+#Area com a implementação das funções que o código vai usar
+
+def minhaFuncao(p1,p2,p3):
+    #Comandos que serão executados quando a função for
+    print("p1:",p1)
+    print("p2:",p2)
+    print("p3:",p3)
+
+
+
+    ###Programa principal#####
+print("Olá")
+
+minhaFuncao("Teste parametro",123,"ababba")
+minhaFuncao(1.1,123,"ababb1611")
+a= "Pet"
+b= input("Digite uma coisa: ")
+minhaFuncao(a,b,False)
