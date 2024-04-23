@@ -64,4 +64,13 @@ for sorteio in range(0,20):
         null = null+1
 print("Números Positivos: ",pos,"\nNúmeros negativos: ",neg,"\nNulo: ",null)
 
+##Ler n números e imprimir no final a soma dos números lidos
+print("Ler n números e imprimir no final a soma dos números lidos")
+quant = int(input("Digite quantos números vão ser lidos: "))
+soma=0
+while quant>0:
+    numSoma=float(input("Digite o número a somar: "))
+    soma = numSoma+soma
+    quant = quant-1
+print("A soma dos números é: ",soma)
 
