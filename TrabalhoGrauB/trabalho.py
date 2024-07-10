@@ -127,10 +127,8 @@ def menu_principal(felinos, nome_arquivo):
             break
         else:
             print("Opção inválida. Tente novamente.")
-def main():
-    nome_arquivo = 'felinos.csv'
-    felinos = carregar_dados(nome_arquivo)
-    menu_principal(felinos, nome_arquivo)
 
 
-main()
+nome_arquivo = 'felinos.csv'
+felinos = carregar_dados(nome_arquivo)
+menu_principal(felinos, nome_arquivo)
