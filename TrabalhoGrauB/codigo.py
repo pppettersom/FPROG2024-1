@@ -17,25 +17,26 @@ def salvar_dados(nome_arquivo, felinos):
         writer.writerow(felino)
     file.close()
 def cadastrar_felino(felinos):
-    novo_felino = {}
-    novo_felino["Nome"] = input("Nome: ")
-    novo_felino["Sexo"] = input("Sexo (M/F): ")
-    novo_felino["Idade"] = input("Idade: ")
-    novo_felino["Raça"] = input("Raça: ")
-    novo_felino["Cor Predominante"] = input("Cor Predominante: ")
-    novo_felino["Castrado"] = input("Castrado (Sim/Não): ")
-    novo_felino["FIV+"] = input("FIV+ (Sim/Não): ")
-    novo_felino["FELV+"] = input("FELV+ (Sim/Não): ")
-    novo_felino["Data de Resgate"] = input("Data de Resgate (dd/mm/yyyy): ")
-    novo_felino["Adotado"] = input("Adotado (Sim/Não): ")
-    novo_felino["Lar Temporário"] = input("Lar Temporário (Sim/Não): ")
-    novo_felino["Data de Adoção/Hospedagem"] = input("Data de Adoção/Hospedagem (dd/mm/yyyy): ")
-    novo_felino["Tutor"] = input("Tutor: ")
-    novo_felino["Contato"] = input("Contato: ")
-    novo_felino["Data da Última Vacina"] = input("Data da Última Vacina (dd/mm/yyyy): ")
-    novo_felino["Data da Última Desvermifugação"] = input("Data da Última Desvermifugação (dd/mm/yyyy): ")
-    novo_felino["Data do Último Antipulgas"] = input("Data do Último Antipulgas (dd/mm/yyyy): ")
-    novo_felino["Informações Extras"] = input("Informações Extras: ")
+    novo_felino = {
+        "Nome": input("Nome: "),
+        "Sexo": input("Sexo (M/F): "),
+        "Idade": input("Idade: "),
+        "Raça": input("Raça: "),
+        "Cor Predominante": input("Cor Predominante: "),
+        "Castrado": input("Castrado (Sim/Não): "),
+        "FIV+": input("FIV+ (Sim/Não): "),
+        "FELV+": input("FELV+ (Sim/Não): "),
+        "Data de Resgate": input("Data de Resgate (dd/mm/yyyy): "),
+        "Adotado": input("Adotado (Sim/Não): "),
+        "Lar Temporário": input("Lar Temporário (Sim/Não): "),
+        "Data de Adoção/Hospedagem": input("Data de Adoção/Hospedagem (dd/mm/yyyy): "),
+        "Tutor": input("Tutor: "),
+        "Contato": input("Contato: "),
+        "Data da Última Vacina": input("Data da Última Vacina (dd/mm/yyyy): "),
+        "Data da Última Desvermifugação": input("Data da Última Desvermifugação (dd/mm/yyyy): "),
+        "Data do Último Antipulgas": input("Data do Último Antipulgas (dd/mm/yyyy): "),
+        "Informações Extras": input("Informações Extras: ")
+    }
     felinos.append(novo_felino)
     print("Felino cadastrado com sucesso!")
 def alterar_status_felino(felinos):
